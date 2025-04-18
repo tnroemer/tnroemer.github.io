@@ -268,7 +268,25 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+ # _interesting-math
+  - scope:
+      path: ""
+      type: interesting-math
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+ # _resume
+  - scope:
+      path: ""
+      type: resume
     values:
       layout: single
       author_profile: true
